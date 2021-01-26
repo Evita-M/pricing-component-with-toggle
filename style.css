@@ -179,7 +179,7 @@ input:checked + .slider:before {
 }
 
 .price-info {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--dark-gray);
 }
@@ -190,6 +190,11 @@ input:checked + .slider:before {
   width: 250px;
   margin: .5rem 0;
   border-bottom: 1px solid var(--light-gray);
+}
+
+.price {
+  font-size: 3.5rem;
+  vertical-align:middle;
 }
 
 .submit-btn {
